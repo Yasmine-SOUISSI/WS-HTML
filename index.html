@@ -1,0 +1,137 @@
+<!--The <!DOCTYPE> declaration represents 
+    the document type, and helps browsers 
+    to display web pages correctly-->
+<!DOCTYPE html>
+<!--It is a crucial tag. It tells the 
+    browser that the content is located between 
+    < html > and < /html>.
+    It is also called the “root” element.-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <!--The <body> element defines
+         the document's body.-->
+    <body>
+        <!--HTML HEADINGS h1 to h6 <h1> defines 
+     the most important heading. 
+     <h6> defines the least important heading -->
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <!--HTML PARAGRAPHS <p> -->
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        <!--HTML LINKS  The link's destination 
+            is specified in the href attribute. -->
+        <a href="https://www.w3schools.com">This is a link</a>
+        <a href="mailto:yasminesouissi852@gmail.com"> Mail me! </a>
+        <!--Attributes are used to provide 
+            additional information about HTML
+             elements-->
+        <!--HTML IMAGES The source file (src), 
+            alternative text (alt), width, 
+            and height are provided as attributes:-->
+        <img src="" alt="W3Schools.com" width="104" height="142" />
+        <!--UNORDRED LIST-->
+        <ul>
+            <!--Defines a list item-->
+            <li>Home</li>
+            <li>WORK</li>
+            <li>ABOUT</li>
+        </ul>
+        <!--ORDRED LIST-->
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+        <!--DESCRIPTION LIST The <dl> tag defines 
+            the description list, 
+            the <dt> tag defines the term (name), and the 
+            <dd> tag describes each term-->
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+
+        <!--TABLE -->
+        <!--Defines a table-->
+        <table>
+            <!--Defines a row in a table-->
+            <tr>
+                <!--Defines a col in a table-->
+                <th>Person 1</th>
+                <th>Person 2</th>
+                <th>Person 3</th>
+            </tr>
+            <tr>
+                <td>Emil</td>
+                <td>Tobias</td>
+                <td>Linus</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>14</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <!-- SEMANTIC ELEMENTS Making your web 
+            content vastly more accessible to 
+            readers with disabilities.
+            Applying styles with CSS will become
+            more consistent and predictable. -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home"> Home</a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#contact"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1>WWF</h1>
+            <p>
+                The World Wide Fund for Nature (WWF) is an international
+                organization working on issues regarding the conservation,
+                research and restoration of the environment, formerly named the
+                World Wildlife Fund. WWF was founded in 1961.
+            </p>
+        </section>
+        <!--<article> element can be used:
+            Forum posts
+            Blog posts
+            User comments
+            Product cards
+            Newspaper articles-->
+        <article>
+            <h2>Google Chrome</h2>
+            <p>
+                Google Chrome is a web browser developed by Google, released in
+                2008. Chrome is the world's most popular web browser today!
+            </p>
+        </article>
+        <!--FORM-->
+        <form>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" />
+        </form>
+        <input type="button" value="Submit" /> <br />
+        <input type="checkbox" /><br />
+        <input type="radio" />
+        <label for="css">CSS</label>
+    </body>
+</html>
